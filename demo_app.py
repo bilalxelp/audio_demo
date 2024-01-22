@@ -24,7 +24,7 @@ def main():
     st.title("Audio Analysis App")
 
     # Load dataframe from Excel file (replace with your actual file path)
-    csv_path = "demo_output.csv"
+    csv_path = "new_demo.csv"
     df = pd.read_csv(csv_path, index_col=0)
 
 
