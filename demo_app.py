@@ -32,7 +32,7 @@ def main():
     selected_audio = st.selectbox("Select Audio File", df['audio_name'])
 
     # Load audio and display player
-    audio_path = "/demo_audios/" + selected_audio  # Replace with actual path
+    audio_path = "demo_audios/" + selected_audio  # Replace with actual path
     
     st.audio(audio_path, format='audio/mp3', start_time=0)
 
