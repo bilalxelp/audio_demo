@@ -24,7 +24,8 @@ def main():
     st.title("Audio Analysis App")
 
     # Load dataframe from Excel file (replace with your actual file path)
-    excel_path = "demo_openai_output.xlsx"
+    # excel_path = "demo_openai_output.xlsx"
+    excel_path = "demo_openai_output_masked.xlsx"
     df = pd.read_excel(excel_path)
 
 
